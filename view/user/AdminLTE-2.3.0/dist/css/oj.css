@@ -1,0 +1,134 @@
+.oj_white {
+	color:#fff;
+}
+
+.user-menu.open .dropdown-menu {
+	border-bottom: solid 1px #ccc;
+	border-left: solid 1px #ccc;
+	border-right: solid 1px #ccc;
+	border-top: solid 1px #3c8dbc;
+}
+
+.submit_button {
+	position: fixed;
+    right: 1%;
+    top: 55px;
+    z-index: 100;
+}
+
+.oj_problem_view p {
+	font-size:1.7rem;
+	font-weight: light;
+	text-align: justify;
+}
+
+.oj_problem_image > img{
+	display: block;
+    margin: 0 auto;
+    max-height: 300px;
+    max-width: 100%;
+}
+
+.submit_form {
+	z-index: 150;
+	position: absolute;
+	width:100%;
+	height:100%;
+	background-color:rgba(33, 33, 33, 0.5);
+}
+
+.submit_form > form {
+	width: 690px;
+	max-width: 100%;
+	margin:0 auto;
+	margin-top:10em;
+	background-color:#fff;
+	padding:2em;
+}
+
+.submit_form > form textarea {
+	min-height:250px;
+	width:100%;
+	max-width: 100%;
+	min-width: 100%;
+}
+
+.submit_form_close {
+	position: absolute;
+	margin-top:7em;
+	right:10px;
+}
+
+.rank_box {
+	padding-left: 0;
+	padding-right: 0;
+	min-width: 50px;
+	width:100%;
+	margin: 0 auto;
+	font-family: 'sans';
+}
+
+.total_box {
+	padding:14px 0px;
+}
+
+.problem_no {
+	text-align: center;
+	max-width: 30px;
+}
+
+.rank_user {
+	padding: 22px 8px !important;
+}
+
+.chat .item > i.online {
+	border-radius: 63px;
+    font-size: 26px;
+    padding: 4px 8px 6px 8px;
+}
+
+.chat .item > i.fa-user-secret {
+    color:#fff;
+    background-color: #333;
+}
+
+.chat .item > .message {
+	text-align: justify;
+}
+
+.clar_alert {
+	position: fixed;
+	width:400px;
+	top:120px;
+	right:20px;
+	display: none;
+}
+
+#clar_my .slimScrollDiv {
+	max-height: 400px;
+	overflow: scroll;
+}
+
+.item_judge {
+	padding-left: 50px;
+}
+
+tr.contestant {
+	/* background-color: #999 !important; *
+	box-shadow: 0px 0px 5px #000 !important; */
+	background-color: rgba(0, 128, 255, 0.3) !important;
+}
+
+.navbar-nav > .notifications-menu > .dropdown-menu, .navbar-nav > .messages-menu > .dropdown-menu, .navbar-nav > .tasks-menu > .dropdown-menu {
+    border: 1px solid #09f;
+    width: 580px;
+}
+
+h2.countdown_timer {
+	font-size:4rem;
+	margin: 0 auto;
+}
+
+.contest_clock {
+	padding-top:0;
+}
